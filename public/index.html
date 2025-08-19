@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banele WJLM - Content Creator & Influencer</title>
+    <meta name="description" content="Welcome to the official website of Banele WJLM. Join me for amazing content, entertainment, and positive vibes!">
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Fonts and Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/v2.css">
+</head>
+<body>
+    <canvas id="particles-bg"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#" class="nav-logo">
+                <span>W</span><span>J</span><span>L</span><span>M</span>
+            </a>
+            <button class="nav-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#videos" class="nav-link">Videos</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#podcast" class="nav-link">Podcast</a>
+                <a href="#community" class="nav-link">Community</a>
+                <a href="#merch" class="nav-link">Merch</a>
+                <a href="#contact" class="nav-link btn-contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-v2">
+        <video autoplay muted loop playsinline>
+            <source src="videos/background.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-grid container single">
+            <div class="hero-left">
+                <span class="eyebrow">superstart rockster</span>
+                <h1 class="hero-title glitch-text" data-text="Banele WJLM">Banele <span class="gradient-text">WJLM</span></h1>
+                <p class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="typing-cursor">|</span>
+                </p>
+                <div class="hero-ctas">
+                    <a href="#videos" class="btn btn-primary"><i class="fas fa-play"></i> Watch Latest</a>
+                    <a href="#merch" class="btn btn-outline"><i class="fas fa-store"></i> Shop Merch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://youtube.com/@BaneleWJLM" class="social-link" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://instagram.com/BaneleWJLM" class="social-link" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@BaneleWJLM" class="social-link" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-number">
+                        <span class="count-up" data-from="0" data-to="15100" data-suffix="K+"></span>
+                    </div>
+                    <div class="stat-label">Subscribers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-video"></i></div>
+                    <div class="stat-number">
+                        <span class="count-up" data-from="0" data-to="294" data-suffix="+"></span>
+                    </div>
+                    <div class="stat-label">Videos</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-eye"></i></div>
+                    <div class="stat-number">
+                        <span class="count-up" data-from="0" data-to="737000" data-suffix="K+"></span>
+                    </div>
+                    <div class="stat-label">Total Views</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-heart"></i></div>
+                    <div class="stat-number">
+                        <span class="count-up" data-from="0" data-to="50000" data-suffix="K+"></span>
+                    </div>
+                    <div class="stat-label">Likes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">About Me</span>
+                <h2 class="section-title">
+                    <div id="blur-text-container" class="blur-text-container">
+                        <span class="blur-text-word">The</span>
+                        <span class="blur-text-word">Story</span>
+                        <span class="blur-text-word">Behind</span>
+                        <span class="blur-text-word">WJLM</span>
+                    </div>
+                </h2>
+                <p class="section-subtitle">From humble beginnings to becoming a content creation powerhouse</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">You Already Know Superstar Rockstar Levol!!! From lifestyle vlogs to trending challenges, we bring you authentic content that connects with audiences across platforms!</p>
+                        <p>My journey started with a simple passion for creating content that resonates with people. Today, WJLM has grown into a community of amazing supporters who share the same love for authentic, entertaining content.</p>
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Authentic Content Creation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Community Building</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Cross-Platform Presence</span>
+                            </div>
+                        </div>
+                        <div class="about-cta">
+                            <a href="https://www.youtube.com/@banelewjlm" target="_blank" class="btn btn-primary">
+                                <i class="fab fa-youtube"></i>
+                                Subscribe on YouTube
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div id="profile-card-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Videos Section -->
+    <section id="videos" class="videos section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Latest Content</span>
+                <h2 class="section-title">
+                    <div class="focus-container">
+                        <span class="focus-word" data-word="Featured">Featured</span>
+                        <span class="focus-word" data-word="Videos">Videos</span>
+                        <div class="focus-frame">
+                            <span class="corner top-left"></span>
+                            <span class="corner top-right"></span>
+                            <span class="corner bottom-left"></span>
+                            <span class="corner bottom-right"></span>
+                        </div>
+                    </div>
+                </h2>
+                <p class="section-subtitle">Check out my latest uploads and trending content</p>
+            </div>
+            <div class="video-grid">
+                <!-- Loading state -->
+                <div class="loading-message">
+                    <div class="loading-spinner"></div>
+                    <p>Loading latest videos...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Live Events</span>
+                <h2 class="section-title scroll-float" id="upcoming-events-title">
+                    <span class="scroll-float-text">Upcoming Events</span>
+                </h2>
+                <p class="section-subtitle">Join me for unforgettable experiences and exclusive content</p>
+            </div>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&h=400&fit=crop&crop=center" alt="Meet & Greet">
+                        <div class="event-date">
+                            <span class="day">25</span>
+                            <span class="month">MAR</span>
+                        </div>
+                        <div class="event-badge">Featured</div>
+                    </div>
+                    <div class="event-info">
+                        <h3 class="event-title">WJLM Fan Meet & Greet</h3>
+                        <div class="event-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Mbabane, Eswatini</span>
+                            <span><i class="far fa-clock"></i> 2:00 PM</span>
+                        </div>
+                        <p class="event-description">Join me for an amazing afternoon of fun, games, and exclusive content! Meet other fans and get a chance to hang out with me.</p>
+                        <div class="ticket-info">
+                            <div class="price">
+                                <span class="amount">E250</span>
+                                <span class="label">per ticket</span>
+                            </div>
+                            <button class="ticket-btn">Get Tickets</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop&crop=center" alt="Live Performance">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">APR</span>
+                        </div>
+                    </div>
+                    <div class="event-info">
+                        <h3 class="event-title">WJLM Live Performance</h3>
+                        <div class="event-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Manzini, Eswatini</span>
+                            <span><i class="far fa-clock"></i> 12:00 PM</span>
+                        </div>
+                        <p class="event-description">Join me for an electrifying performance! Special guests, live music, and unforgettable moments guaranteed.</p>
+                        <div class="ticket-info">
+                            <div class="price">
+                                <span class="amount">E350</span>
+                                <span class="label">per ticket</span>
+                            </div>
+                            <button class="ticket-btn">Get Tickets</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=600&h=400&fit=crop&crop=center" alt="Live Podcast">
+                        <div class="event-date">
+                            <span class="day">30</span>
+                            <span class="month">APR</span>
+                        </div>
+                    </div>
+                    <div class="event-info">
+                        <h3 class="event-title">What's The Story - Live Show</h3>
+                        <div class="event-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Ezulwini, Eswatini</span>
+                            <span><i class="far fa-clock"></i> 7:00 PM</span>
+                        </div>
+                        <p class="event-description">Be part of a live podcast recording! Special guests, audience interaction, and exclusive behind-the-scenes content.</p>
+                        <div class="ticket-info">
+                            <div class="price">
+                                <span class="amount">E200</span>
+                                <span class="label">per ticket</span>
+                            </div>
+                            <button class="ticket-btn">Get Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast Section -->
+    <section id="podcast" class="podcast section">
+        <div class="container">
+            <div class="podcast-header">
+                <div class="podcast-logo-wrapper">
+                    <img src="../pics/WhatsApp Image 2025-03-10 at 22.56.01_a74a46a4.jpg" alt="What's The Story Podcast" class="podcast-logo">
+                </div>
+                <div class="podcast-intro">
+                    <span class="section-badge">Podcast</span>
+                    <h2 class="section-title">
+                        <canvas id="fuzzy-text-canvas" class="fuzzy-text-canvas"></canvas>
+                    </h2>
+                    <p class="podcast-description">Join me every week as we dive deep into fascinating stories, share experiences, and explore interesting topics with special guests. From lifestyle trends to life experiences, we cover it all!</p>
+                    <div class="podcast-platforms">
+                        <a href="#" class="platform-link">
+                            <i class="fab fa-spotify"></i>
+                            <span>Spotify</span>
+                        </a>
+                        <a href="#" class="platform-link">
+                            <i class="fab fa-apple"></i>
+                            <span>Apple</span>
+                        </a>
+                        <a href="#" class="platform-link">
+                            <i class="fab fa-google"></i>
+                            <span>Google</span>
+                        </a>
+                        <a href="#" class="platform-link">
+                            <i class="fas fa-podcast"></i>
+                            <span>More</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="episodes-grid">
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="../pics/podcast/episode1.jpg" alt="Episode 1">
+                        <div class="episode-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="episode-info">
+                        <span class="episode-number">Episode #45</span>
+                        <h3 class="episode-title">The Art of Content Creation</h3>
+                        <div class="episode-meta">
+                            <span><i class="far fa-clock"></i> 1h 15m</span>
+                            <span><i class="far fa-calendar"></i> Mar 15, 2024</span>
+                        </div>
+                        <p class="episode-description">Join me as I share insider tips on creating viral content, building your personal brand, and staying authentic in the digital age.</p>
+                    </div>
+                </div>
+
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="../pics/podcast/episode2.jpg" alt="Episode 2">
+                        <div class="episode-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="episode-info">
+                        <span class="episode-number">Episode #44</span>
+                        <h3 class="episode-title">Influencer Life in Eswatini</h3>
+                        <div class="episode-meta">
+                            <span><i class="far fa-clock"></i> 55m</span>
+                            <span><i class="far fa-calendar"></i> Mar 8, 2024</span>
+                        </div>
+                        <p class="episode-description">A deep dive into the life of a social media influencer in Eswatini, discussing local trends, challenges, and opportunities in the digital space.</p>
+                    </div>
+                </div>
+
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="../pics/podcast/episode3.jpg" alt="Episode 3">
+                        <div class="episode-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="episode-info">
+                        <span class="episode-number">Episode #43</span>
+                        <h3 class="episode-title">Building a Community on Social Media</h3>
+                        <div class="episode-meta">
+                            <span><i class="far fa-clock"></i> 1h 30m</span>
+                            <span><i class="far fa-calendar"></i> Mar 1, 2024</span>
+                        </div>
+                        <p class="episode-description">Learn how to build and nurture an engaged community across different social media platforms, with real examples from my journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Merch Section -->
+    <section id="merch" class="merch section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Official Merch</span>
+                <h2 class="section-title curved-loop-container" id="lifestyle-collection-title">
+                    <div class="curved-loop-wrapper">
+                        <svg class="curved-loop-svg" viewBox="-300 0 2040 120">
+                            <defs>
+                                <path id="curve-path" d="M-300,40 Q720,360 1740,40" fill="none" stroke="transparent"/>
+                            </defs>
+                            <text class="curved-text" xmlSpace="preserve">
+                                <textPath href="#curve-path" startOffset="0px" xmlSpace="preserve">
+                                    WJLM Lifestyle Collection ✦ WJLM Lifestyle Collection ✦ WJLM Lifestyle Collection ✦ WJLM Lifestyle Collection ✦ WJLM Lifestyle Collection ✦
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                </h2>
+                <p class="section-subtitle">Represent the WJLM brand with our exclusive merchandise</p>
+            </div>
+            <div class="merch-grid">
+                <div class="merch-card">
+                    <div class="merch-badge">New!</div>
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=400&fit=crop&crop=center" alt="WJLM Signature Hoodie">
+                        <div class="merch-overlay">
+                            <button class="merch-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3 class="merch-title">WJLM Signature Hoodie</h3>
+                        <p class="merch-price">E499</p>
+                        <p class="merch-description">Premium quality hoodie with the iconic WJLM lifestyle design</p>
+                    </div>
+                </div>
+
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=400&fit=crop&crop=center" alt="Superstar Rockstar T-Shirt">
+                        <div class="merch-overlay">
+                            <button class="merch-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3 class="merch-title">Superstar Rockstar T-Shirt</h3>
+                        <p class="merch-price">E249</p>
+                        <p class="merch-description">Classic fit t-shirt with the famous catchphrase</p>
+                    </div>
+                </div>
+
+                <div class="merch-card">
+                    <div class="merch-badge sale">Sale!</div>
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&h=400&fit=crop&crop=center" alt="WJLM Lifestyle Cap">
+                        <div class="merch-overlay">
+                            <button class="merch-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3 class="merch-title">WJLM Lifestyle Cap</h3>
+                        <p class="merch-price">E199</p>
+                        <p class="merch-description">Stylish adjustable cap with embroidered WJLM logo</p>
+                    </div>
+                </div>
+
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&h=400&fit=crop&crop=center" alt="WJLM Phone Case">
+                        <div class="merch-overlay">
+                            <button class="merch-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3 class="merch-title">WJLM Phone Case</h3>
+                        <p class="merch-price">E299</p>
+                        <p class="merch-description">Durable phone case with exclusive WJLM design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-merch">
+                <a href="merchandise.html" class="btn btn-outline">
+                    <span>View All Merchandise</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies Section -->
+    <section class="companies section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Partnerships</span>
+                <h2 class="section-title text-pressure-container" id="companies-title">
+                    <div class="text-pressure-wrapper">
+                        <span class="text-pressure-text">Companies I've Worked With</span>
+                    </div>
+                </h2>
+                <p class="section-subtitle">Trusted by leading brands and organizations</p>
+            </div>
+            <div class="companies-grid">
+                <div class="company-card">
+                    <div class="placeholder-logo ahf-logo">
+                        <span class="logo-text">AHF</span>
+                        <span class="logo-subtext">Eswatini</span>
+                    </div>
+                    <div class="company-overlay">
+                        <h3>AIDS Healthcare Foundation</h3>
+                        <p>Eswatini</p>
+                    </div>
+                </div>
+                <div class="company-card">
+                    <div class="placeholder-logo mtn-logo">
+                        <span class="logo-text">MTN</span>
+                    </div>
+                    <div class="company-overlay">
+                        <h3>MTN</h3>
+                        <p>Telecommunications</p>
+                    </div>
+                </div>
+                <div class="company-card">
+                    <div class="placeholder-logo safaids-logo">
+                        <span class="logo-text">SAfAIDS</span>
+                    </div>
+                    <div class="company-overlay">
+                        <h3>SAfAIDS</h3>
+                        <p>Southern Africa HIV and AIDS Information</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community section">
+        <div class="container">
+            <div class="community-content">
+                <div class="community-text">
+                    <span class="section-badge">Join Us</span>
+                    <h2 class="section-title">Join the WJLM Community</h2>
+                    <p class="section-subtitle">Be part of an amazing community of content lovers and get exclusive updates on new videos, events, and behind-the-scenes content!</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                        <p class="form-note">Join 10,000+ subscribers for exclusive content and updates!</p>
+                    </form>
+                </div>
+                <div class="community-image">
+                    <div class="image-wrapper">
+                        <img src="../pics/channels4_banner.jpg" alt="WJLM Community">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">For business inquiries, collaborations, or just to say hello</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>contact@wjlm.com</p>
+                            <span>For business inquiries only</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Eswatini</p>
+                            <span>Available for events nationwide</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Response Time</h3>
+                            <p>Within 24 hours</p>
+                            <span>Monday - Friday</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <h3>
+                            <span>W</span><span>J</span><span>L</span><span>M</span>
+                        </h3>
+                    </div>
+                    <p>Creating Amazing Content Just For You</p>
+                    <div class="footer-social">
+                        <a href="https://youtube.com/@BaneleWJLM" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/BaneleWJLM" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@BaneleWJLM" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <a href="#about">About</a>
+                        <a href="#videos">Videos</a>
+                        <a href="#podcast">Podcast</a>
+                        <a href="#community">Community</a>
+                        <a href="#merch">Merch</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Content</h4>
+                        <a href="#videos">Latest Videos</a>
+                        <a href="#podcast">Podcast Episodes</a>
+                        <a href="#events">Live Events</a>
+                        <a href="#merch">Merchandise</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Support</h4>
+                        <a href="#contact">Contact</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Banele WJLM. All rights reserved.</p>
+                <p>Made with ❤️ in Eswatini</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/profile-card.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
