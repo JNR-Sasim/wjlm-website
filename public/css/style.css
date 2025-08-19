@@ -172,7 +172,10 @@ body {
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1920&h=1080&fit=crop&crop=center');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .hero-background {
@@ -225,7 +228,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     position: relative;
     padding: 10px 20px;
-    background-image: url('/pics/eswatini-flag.png');
+    background-image: url('pics/eswatini-flag.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

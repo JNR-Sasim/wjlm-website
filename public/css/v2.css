@@ -832,7 +832,84 @@ body {
   position: relative;
 }
 
+/* Videos Section Background */
+.videos {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1920&h=1080&fit=crop&crop=center');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Events Section Background */
+.events {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1920&h=1080&fit=crop&crop=center');
+  background-size: cover;
+  background-position: center;
+}
+
+.events::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  z-index: 1;
+}
+
+.events-video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  min-height: 100vh;
+  display: block;
+}
+
+/* Animated background as fallback */
+.events::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(255, 59, 59, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 59, 59, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(255, 59, 59, 0.05) 0%, transparent 50%);
+  animation: backgroundPulse 8s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes backgroundPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+}
+
+/* Merch Section Background */
+.merch {
+  background: var(--bg-primary);
+}
+
 /* Events Section */
+.events .container {
+  position: relative;
+  z-index: 2;
+}
+
 .events-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
